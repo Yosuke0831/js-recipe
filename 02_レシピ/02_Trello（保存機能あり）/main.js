@@ -21,12 +21,3 @@ addButton.onclick = function() {
 
   card.append(deleteButton)
 }
-
-const deleteButton = document.createElement("div")
-deleteButton.className = "delete"
-
-deleteButton.onclick = function() {
-  card.remove()
-}
-
-card.append(deleteButton)
