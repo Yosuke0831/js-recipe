@@ -47,3 +47,5 @@ choice2.onclick = function() {
 choice3.onclick = function() {
   choose(2)
 }
+
+reloadQuiz()
